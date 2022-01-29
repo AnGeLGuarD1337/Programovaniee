@@ -15,8 +15,8 @@ int main()
 	double vysledek;
 	printf("Zadej N:");
 	scanf("%d",&n);
-							//vysledek=fact_iter(n);
-	vysledek=f(n);
+	vysledek=fact_iter(n);
+	//vysledek=f(n);
 	printf("Faktorial je roven: %e\n",vysledek);
 
 	printf("Zadej N a K:");
